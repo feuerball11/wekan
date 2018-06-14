@@ -114,6 +114,7 @@ BlazeComponent.extendComponent({
       // component.
       'mouseenter .board-overlay'() {
         if (this.mouseHasEnterCardDetails) {
+          console.log("mouseEnter");
           this.showOverlay.set(false);
         }
       },
